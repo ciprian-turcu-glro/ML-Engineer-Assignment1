@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml-engineer-assignment1"
+version = "0.1.0"
+description = ""
+authors = ["Ciprian <ciprian.turcu@fortech.ro>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.27.2"
+requests = "^2.31.0"
+pandas = "2.1"
+bs4 = "^0.0.1"
+transformers = "^4.34.1"
+torch = "^2.1.0"
+ipykernel = "^6.26.0"
+notebook = "^7.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
